@@ -14,7 +14,7 @@ add_new_fuel('ABS_HyperTEK', abs_card)
 # --- 2. RocketCEA設定 ---
 cea = CEA_Obj(oxName='N2O', fuelName='ABS_HyperTEK', pressure_units='MPa', cstar_units='m/sec', temperature_units='K')
 
-
+    # --- 2. 改良版エンジン諸元 ---
 Pc = 2.38     # 燃焼室圧力 (MPa)
 MR = 8.16    # 混合比 (O/F)
 eps = 4.0   # ノズル膨張比
